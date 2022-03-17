@@ -1,0 +1,138 @@
+.Product {
+  position: absolute;
+  width: 375px;
+  height: 411px;
+  left: 0px;
+  top: 2566px;
+
+  background: #DCE9E9;
+}
+
+.Header {
+  position: absolute;
+  width: 335px;
+  height: 66px;
+  left: 33px;
+  top: 40px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #1B1B50;
+
+}
+
+.SubHeader {
+  position: absolute;
+  width: 329px;
+  height: 86px;
+  left: 33px;
+  top: 142px;
+
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+
+
+  color: #000000;
+
+}
+
+.Para1 {
+  position: absolute;
+  width: 308px;
+  height: 145px;
+  left: 33px;
+  top: 249px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+
+
+  color: rgba(0, 0, 0, 0.8);
+
+}
+
+.ButtonPri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 45px;
+
+  position: absolute;
+  width: 315px;
+  height: 66px;
+  left: 30px;
+  top: 427px;
+
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+}
+
+.ButtonText {
+  position: static;
+  width: 237px;
+  height: 30px;
+  left: 39px;
+  top: 18px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.8605px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.Htag {
+  position: absolute;
+  width: 335px;
+  height: 33px;
+  left: 20px;
+  top: 504px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Product2 {
+  position: absolute;
+  width: 375px;
+  height: 562px;
+  left: 0px;
+  top: 2910px;
+
+  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(G:\\projects\\dyeus_project\\test\\src\\pexels-karolina-grabowska-4041391.png);
+}
