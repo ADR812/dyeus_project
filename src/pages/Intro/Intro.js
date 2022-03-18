@@ -1,12 +1,12 @@
 import React from 'react'
-import "G:\\projects\\dyeus_project\\test\\src\\pages\\Intro\\intro.css"
+import "./intro.css"
 const Intro = () => {
   return (
     <div className='IntroPage'>
       <div className='Header'>
         What makes us different?
       </div>
-      <div className='SubHeader'>
+      <div className='SubHeaderp'>
         Reimagining and rewiring self-care
       </div>
       <div className='Para1'>

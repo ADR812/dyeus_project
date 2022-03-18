@@ -3,39 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Quicksand:wght@700&display=swap');
-.Product {
+
+.TrackerApp {
   position: absolute;
   width: 375px;
-  height: 411px;
+  height: 431px;
   left: 0px;
-  top: 2566px;
-
-  background: #DCE9E9;
+  top: 3472px;
+  background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
 }
 
-.Header {
+.Headerp {
   position: absolute;
-  width: 335px;
-  height: 66px;
-  left: 33px;
-  top: 40px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 33px;
-
-  color: #1B1B50;
-
-}
-
-.SubHeader {
-  position: absolute;
-  width: 329px;
-  height: 86px;
-  left: 33px;
-  top: 142px;
+  width: 245px;
+  height: 43px;
+  left: 30px;
+  top: 39px;
 
   font-family: 'Reptile';
   font-style: normal;
@@ -46,7 +29,6 @@
 
 
   color: #000000;
-
 }
 
 .Para1 {
@@ -54,22 +36,19 @@
   width: 308px;
   height: 145px;
   left: 33px;
-  top: 249px;
+  top: 105px;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 206.5%;
-  /* or 29px */
+  line-height: 29px;
 
 
   color: rgba(0, 0, 0, 0.8);
-
 }
 
-
-.ButtonPri {
+.ButtonSec {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,18 +59,18 @@
   width: 315px;
   height: 66px;
   left: 30px;
-  top: 83px;
+  top: 283px;
 
-  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
-  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
   border-radius: 70px;
 }
 
 .ButtonText {
   position: static;
-  width: 237px;
+  width: 277px;
   height: 30px;
-  left: 39px;
+  left: 19px;
   top: 18px;
 
   font-family: 'Poppins';
@@ -114,31 +93,34 @@
   margin: 0px 10px;
 }
 
-.Htag {
+.Photo1 {
   position: absolute;
-  width: 335px;
-  height: 33px;
-  left: 20px;
-  top: 170px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 33px;
-  /* identical to box height */
-
-  text-align: center;
-
-  color: rgba(0, 0, 0, 0.8);
+  width: 164px;
+  height: 164px;
+  left: 11px;
+  top: 3854px;
 }
 
-.Product2 {
+.Photo2 {
   position: absolute;
-  width: 375px;
-  height: 562px;
-  left: 0px;
-  top: 2910px;
+  width: 164px;
+  height: 164px;
+  left: 200px;
+  top: 3854px;
+}
 
-  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(G:\\projects\\dyeus_project\\test\\src\\pexels-karolina-grabowska-4041391.png);
+.Photo3 {
+  position: absolute;
+  width: 164px;
+  height: 164px;
+  left: 11px;
+  top: 4043px;
+}
+
+.Photo4 {
+  position: absolute;
+  width: 164px;
+  height: 164px;
+  left: 200px;
+  top: 4043px;
 }

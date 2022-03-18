@@ -1,7 +1,7 @@
 import React from 'react'
 import Vector from "G:\\projects\\dyeus_project\\test\\src\\Vector.png"
 import Group from "G:\\projects\\dyeus_project\\test\\src\\Group.png"
-import Phone from "G:\\projects\\dyeus_project\\test\\src\\phone-call@2x.png"
+import Phone from "../../phone-call@2x.png"
 import 'G:\\projects\\dyeus_project\\test\\src\\pages\\About\\About.css';
 const about = () => {
   return (

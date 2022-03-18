@@ -17,16 +17,16 @@
   width: 295px;
   height: 33px;
   left: 34px;
-  top: 40px;
+  top: 39px;
   font-family: 'Poppins';
-  font-style: normal;
+  font-style:bold;
   font-weight: 700;
   font-size: 22px;
   line-height: 33px;
   color: #1B1B50;
 }
 
-.SubHeader {
+.SubHeaderp {
   position: absolute;
   width: 335px;
   height: 86px;
@@ -34,8 +34,8 @@
   top: 109px;
   font-family: 'Reptile';
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 134.8%;
   color: #1B1B50;
 }
@@ -51,6 +51,6 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 180%;
+  line-height: 25px;
   color: #1B1B50;
 }
